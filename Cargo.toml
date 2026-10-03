@@ -1,0 +1,12 @@
+[workspace]
+members = ["src/processes-panel"]
+resolver = "2"
+
+[workspace.dependencies]
+ic-plugin-api = { git = "https://github.com/ice-commander/plugin-api.git", branch = "main" }
+
+[profile.release]
+opt-level = "z"
+lto = true
+codegen-units = 1
+strip = true
