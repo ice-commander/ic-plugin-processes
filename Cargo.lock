@@ -48,7 +48,7 @@ checksum = "252afb9ae5eaa683babdc6a068b3f5726eb19e05070c731f9b2a23a7c3e8ed34"
 [[package]]
 name = "ic-plugin-api"
 version = "0.1.0"
-source = "git+https://github.com/ice-commander/plugin-api.git?branch=main#c576bba71f972bea95bf77d9eca587e1afe9db70"
+source = "git+https://github.com/ice-commander/plugin-api.git?branch=main#1fca3a08bcedf194e20a7a0d01963e7a7aeb8a64"
 
 [[package]]
 name = "ic-processes-panel"
