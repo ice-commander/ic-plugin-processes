@@ -1,6 +1,11 @@
 {
   "name": "ice-commander-processes",
-  "version": "0.1.1",
+  "version": "0.1.2",
+  "platforms": [
+    "macos",
+    "windows",
+    "linux"
+  ],
   "private": true,
   "description": "The version this plugin reports. builder/gen-version.js copies it into version.rs.",
   "scripts": {
